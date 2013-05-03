@@ -2,9 +2,10 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.beta1'
+gem 'bootstrap-sass', '2.1'
 
 group :development, :test do
-	gem 'sqlite3', '1.3.5'
+	gem 'sqlite3', '~>1.3.7'
 	gem 'rspec-rails', '2.11.0'
 end
 # Gems used only for assets and not required
