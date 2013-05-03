@@ -1,4 +1,13 @@
 Project::Application.routes.draw do
+  get "contacts/new"
+  get '/', to: 'pages#home'
+  get '/home', to: 'pages#home'
+  get '/products', to: 'pages#products'
+  get '/about', to: 'pages#about'
+  get '/contact', to: 'pages#contact'
+  get '/blog', to: 'pages#blog'
+  get '/faq', to: 'pages#faq'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
